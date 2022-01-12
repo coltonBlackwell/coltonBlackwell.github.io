@@ -1,0 +1,168 @@
+html {
+	height: 100%;
+}
+
+div {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+img {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+body {
+	background-color: rgb(21, 28, 38);
+	height: 100%;
+}
+
+.titleBorder {
+	background-color: #9e8e75;
+	border-width: 5px;
+	border-color: black;
+  border-width: 5px;
+  border-style: solid;
+	margin-left: 0.5vw;
+}
+
+@font-face {
+	font-family: Delicious;
+	src: url('Delicious-Roman.otf');
+}
+
+@font-face {
+	font-family: Codec;
+	src: url('Codec-Cold-Regular-trial.ttf');
+}
+
+@font-face {
+	font-family: Codec;
+	font-weight: Regular;
+	src: url('Codec-Cold-Regular-trial.ttf');
+}
+
+h1 h3 {
+	font-family: Codec, sans-serif;
+}
+
+borderBox {
+	background-color: black;
+	width;
+	100px;
+	height
+}
+
+.sideBar {
+	border-color: black;
+	background-color: #1a2738;
+	width: 50%;
+	height: 100vw;
+  border-color: #31425c;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.infoBox {
+
+  background-color:#40587a;
+  width: 45vw;
+  height: 25vw;
+  border-radius: 25px;
+  border-color: #31425c;
+  border-width: 5px;
+  border-style: solid;
+	margin-left: 2.1vw;
+}
+
+
+.sideBarTitle {
+
+  background-color:#40587a;
+  width: 10vw;
+  height: 5vw;
+  border-color: #31425c;
+  border-width: 0.5vw;
+  border-style: solid;
+  text-align: center;
+	margin-left: 2.1vw;
+}
+
+.bottomBody {
+	background-color: #b0b0b0;
+	width: 100%;
+	height: 65vw;
+}
+
+.learnMoreButton {
+	width: 30vw;
+	height: 4vw;
+
+}
+
+.projectInfo {
+
+	border-radius: 25px;
+	background-color: white;
+  border-color: #233147;
+  border-width: 0.5vw;
+  border-style: solid;
+}
+
+.modalChange {
+
+	background-color: #76859c;
+}
+
+.gifs {
+
+	width: 400px;
+	height: 225px;
+	z-index:2;
+	border-color: #233147;
+  border-width: 0.5vw;
+  border-style: solid;
+	margin-left: 2vw;
+}
+
+.lowerPhoto {
+
+	width: 400px;
+	height: 225px;
+	border-color: #233147;
+  border-width: 0.5vw;
+  border-style: solid;
+}
+
+.pJTitle {
+	background-color: #003d59;
+  border: 0.5vw solid #002536;
+}
+
+.pjProjectHeader{
+	background-color: #003d59;
+  border: 0.5vw solid #002536;
+	height: 10vw;
+}
+
+.pjProjectBody{
+	background-color: #40587a;
+  border: 0.5vw solid #002536;
+	height: 50vw;
+}
+
+.pjProjectFooter{
+	height: 10vw;
+	background-color: #0070a3;
+}
+
+.gif{
+    display: block;
+    width: 100%;
+		height: 50vw;
+}
