@@ -14,7 +14,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 body {
@@ -38,13 +38,13 @@ body {
 
 @font-face {
 	font-family: Codec;
-	src: url('Codec-Cold-Regular-trial.ttf');
+	src: url('Fonts/Codec-Cold-Regular-trial.ttf');
 }
 
 @font-face {
 	font-family: Codec;
 	font-weight: Regular;
-	src: url('Codec-Cold-Regular-trial.ttf');
+	src: url('Fonts/Codec-Cold-Regular-trial.ttf');
 }
 
 h1 h3 {
@@ -69,7 +69,7 @@ borderBox {
 
 .infoBox {
 
-  background-color:#735f58;
+  background-color:#736758;
   width: 45vw;
   height: 25vw;
   border-radius: 25px;
@@ -93,7 +93,7 @@ borderBox {
 }
 
 .bottomBody {
-	background-color: #b0b0b0;
+	background-color: #062a36;
 	width: 100%;
 	height: 65vw;
 }
@@ -125,9 +125,9 @@ borderBox {
 
 .gifs {
 
-	width: 600px;
-	height: 337.5px;
-	z-index:2;
+	width: 30vw;
+	height: 15vw;
+	z-index:1;
 	border-color: #233147;
   	border-width: 0.5vw;
   	border-style: solid;
@@ -146,6 +146,9 @@ borderBox {
 .pJTitle {
 	background-color: #003d59;
   border: 0.5vw solid #002536;
+  margin:auto;
+  width: 100%;
+  padding: 10px;
 }
 
 .pjProjectHeader{
@@ -172,7 +175,7 @@ borderBox {
 }
 
 .infoBoxAboutMe{
-	background-color:#54546b;
+	background-color:#c5c1ad;
 	width: 45vw;
 	height: 25vw;
 	border-radius: 25px;
@@ -180,4 +183,40 @@ borderBox {
 	border-width: 5px;
 	border-style: solid;
 	  margin-left: 2.1vw;
+}
+
+.Cprograms{
+	background-color:#c5c1ad;
+	height: 50vw;
+	border-radius: 25px;
+	border-color: #31425c;
+	border-width: 5px;
+	border-style: solid;
+	z-index: 2;
+}
+
+.linkedList{
+	border-width: 1vw;
+	/* border-color: #002536; */
+	border-radius: 5px;
+	height: 20vw;
+	width: 20vw;
+	z-index: 3;
+	/* background-color: #002536; */
+}
+
+.emptySpace{
+	height: 5vw;
+}
+
+.emptySpace1{
+	height: 3vw;
+}
+
+.emptySpaceGifs{
+	height: 16vw;
+}
+.pythonProjectsBox{
+	border-color: black;
+	border-width: 2vw;
 }
