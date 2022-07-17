@@ -27,9 +27,8 @@ body {
 	border-color: black;
   	border-width: 5px;
   	border-style: solid;
-	margin-left: 0.6vw;
-	margin-left: 0.6vw;
-
+	/* margin-left: 0.6vw; */
+	/* margin-right: 0.6vw; */
 }
 
 @font-face {
@@ -62,7 +61,7 @@ borderBox {
 	border-color: black;
 	background-color: #1a2738;
 	width: 50%;
-	height: 95vw;
+	height:95vw;
   border-color: #31425c;
   border-width: 5px;
   border-style: solid;
