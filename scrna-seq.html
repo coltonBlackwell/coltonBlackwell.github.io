@@ -53,16 +53,32 @@
 									</p>
 								</header>
 								<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom: 25px;">
-									<video width="960" height="540" autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+									<video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"> 
 										<source src="videos/KMeans.mp4" type="video/mp4">
 									</video>		
 								</div>
+
+								<!-- <div>
+									<img src="../images/best_kmeans++.png">
+								</div> -->
+
+
+								<div style="position: relative; width: 100%; padding-bottom: 75%; margin-bottom: 25px;">
+									<!-- <video width="1440" height="720" autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+										<source src="videos/new_leaf.mp4" type="video/mp4">
+									</video>		 -->
+									<img src="../images/best_kmeans++.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 80%;">
+								</div>
+<!-- 
+								<p style="text-align: center;">
+									<i>3D representation of k = 4 KMeans++ cluster implementation with dimensionality = 100</i>
+								</p> -->
 								
 								<div>
-									<p style="text-align: center;">
+									<p style="text-align: center; font-size: 1.2em;">
 										<a href="https://github.com/coltonBlackwell/scRNA-seq-Clustering-Analysis">Github Repo</a>
 									</p>
-									<p style="text-align: center;">
+									<p style="text-align: center; font-size: 1.2em;">
 										<a href="../reports/Report.pdf">Report</a>
 									</p>
 								</div>
@@ -72,18 +88,38 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2>Lessons Learned<br /></h2>
+										<h2>Responsibilities<br /></h2>
 									</header>
 									<div style="text-align: left;">
 										<p>
 											<ul>
-												<li>Regular communication helps in staying on track.</li>
-												<li>Conduct group meetings at least once per project phase.</li>
-												<li>Understand that not everything is permanent; be open to change.</li>
-												<li>Foster an environment of openness and acceptance towards new ideas.</li>
-												<li>Recognize the value of playtesting in identifying crucial issues.</li>
-												<li>Playtesting can reveal bugs that traditional testing methods may miss.</li>
-												<li>Embrace constant refactoring to improve code quality continuously.</li>
+												<li>Implemented the K-Means clustering algorithm from scratch in Python, 
+													incorporating methods for centroid initialization, updating, and silhouette coefficient computation.</li>
+												<li>Processed and reduced the dimensionality of a single-cell RNA sequencing
+													 (scRNA-seq) dataset using PCA before applying the clustering algorithm.</li>
+												<li>Utilized K-Means++ initialization to improve clustering quality and evaluated 
+													clustering results using silhouette coefficients for different values of k.</li>
+												<li>Visualized clustering outcomes with a scatter plot, showcasing the best
+													 k-value clusters determined through both random initialization and K-Means++ initialization.</li>
+											</ul>
+										</p>
+									</div>
+								</article>
+								<article>
+									<header>
+										<h2>Skills Developed<br /></h2>
+									</header>
+									<div style="text-align: left;">
+										<p>
+											<ul>
+												<li>Enhanced Python proficiency covering syntax, data structures, 
+													and NumPy for efficient numerical operations.</li>
+												<li>Acquired hands-on experience in implementing K-Means clustering, 
+													focusing on centroid initialization, updates, and Euclidean distances.</li>
+												<li>Developed data preprocessing skills for scRNA-seq datasets.</li>
+												<li>Learned PCA for dimensionality reduction, applied clustering techniques.</li>
+												<li>Utilized Matplotlib for visualization, interpreted silhouette coefficients.</li>
+												<li>Improved documentation for code and report preparation.</li>
 												<!-- <li>First draft of code was often hard to read</li> -->
 											  </ul>
 										</p>
@@ -96,23 +132,6 @@
 										<li><a href="koi-kapers.html" class="button">Learn More</a></li>
 									</ul> -->
 								</article>
-								<article>
-									<header>
-										<h2>Responsibilities<br /></h2>
-									</header>
-									<div style="text-align: left;">
-										<p>
-											<ul>
-												<li> Assisted with UML class diagram to plan the control flow of the game.</li>
-												<li>Built project using Maven for easy testing and dependency management.</li>
-												<li>Measured branch and instruction coverage for testing using JaCoCo.</li>
-												<li>Utilized Java as primary language while integrating JPanel and Graphics2D for UI .</li>
-												<li>Delivered the concluding project presentation in front of an audience of over 100 peers.</li>
-											</ul>
-										</p>
-									</div>
-								</article>
-	
 							</section>
 
 							<ul class="actions special">
