@@ -43,7 +43,9 @@
 								<header class="major">
 									<span class="date">April 2024</span>
 									<h2>Covid-19 Prognosis Predictor</h2>
-									<p>INFO HERE
+									<p>In this data mining project, the objective was to explore several widely used 
+                                        machine learning models, optimize various hyperparameters, and 
+                                        utilize the best-tuned models to predict COVID-19 case outcomes.
 									</p>
 								</header>
 
@@ -69,6 +71,41 @@
 								</div> -->
 
 							</article>
+
+                            <article>
+                                <h1>
+                                    Model Comparison
+                                </h1>
+                                <img src="images/best_classifier.png">
+                                <p>
+                                    While using <a href="https://drive.google.com/drive/folders/1D_rvFNM0EqnOq8_O3OH1ksjgk2pLxc_f" style="color: blue;">this</a> dataset, 
+                                    it was found that among the three models, the random forest classifier exhibited the most accurate prediction of the 
+                                    outcome class label. This superior performance is likely due to the ensemble learning technique employed by Random Forests. 
+                                    This method combines multiple decision trees, effectively reducing overfitting and improving generalization capabilities.
+                                </p>
+
+                            </article>
+
+                                <article>
+                                    <h1>
+                                        Summary
+                                    </h1>
+                                    <p>
+                                        Throughout the project, meticulous curation and preprocessing of the data were undertaken, 
+                                        ensuring that the models did not learn from noisy or incomplete information. 
+                                        Relevant features were carefully selected for both training and testing, maintaining 
+                                        consistency to enable accurate model comparisons. Categorical features were mapped, and 
+                                        class distributions were balanced to optimize the datasets for model training, thereby 
+                                        enhancing predictive performance. Building upon this groundwork, various classification 
+                                        models were constructed including <b>KNN</b>, <b>Random Forests</b>, and <b>Naive Bayes Classifier</b>
+                                        . These models were fine-tuned, utilizing advanced techniques such as hyperparameter 
+                                        tuning and model evaluation to achieve optimal results. Efforts were made to rigorously check 
+                                        for overfitting and conduct comparative analyses to identify the most effective model for the 
+                                        goal. Ultimately, the best-tuned model was utilized to predict outcomes on the test dataset,
+                                         meeting performance criteria and showcasing the success of the approach in developing a robust
+                                          and accurate classification solution.
+                                    </p>
+                                </article>
 
 							<section class="posts">
 								<article>
@@ -124,15 +161,17 @@
 									<div style="text-align: left;">
 										<p>
 											<ul>
+                                                <li>VS code
+                                                <li> Jupyter Notebook
 												<li>Python
 												  <ul>
+                                                    <li>pandas</li>
 													<li>Matplotlib</li>
 													<li>numpy</li>
 													<li>scanpy</li>
-													<li>sklearn</li>
+													<li>sklearn.metrics</li>
 												  </ul>
 												</li>
-											  </ul>
 										</p>
 									</div>
 								</article>
@@ -144,10 +183,10 @@
 										<p>
 											<ul>
 												<li>
-													<a href="../reports/Report.pdf">Report</a>
+													<a href="../reports/covid_Report.pdf">Report</a>
 												</li>
 												<li>
-													<a href="https://github.com/coltonBlackwell/scRNA-seq-Clustering-Analysis">Github Repository</a>
+													<a href="https://github.com/coltonBlackwell/CMPT459-Final-Group-Project">Github Repository</a>
 												</li>
 											  </ul>
 										</p>
