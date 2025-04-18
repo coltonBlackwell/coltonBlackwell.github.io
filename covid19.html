@@ -39,162 +39,129 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 2024</span>
-									<h2>Covid-19 Prognosis Predictor</h2>
-									<p>In this data mining project, the objective was to explore several widely used 
-                                        machine learning models, optimize various hyperparameters, and 
-                                        utilize the best-tuned models to predict COVID-19 case outcomes.
-									</p>
+						<article class="post featured" style="margin-bottom: 0; padding-bottom: 0;">
+							<header class="major">
+								<span class="date">April 2024</span>
+								<h2>Covid-19 Prognosis Predictor</h2>
+								<p>In this data mining project, the objective was to explore several widely used 
+									machine learning models, optimize various hyperparameters, and 
+									utilize the best-tuned models to predict COVID-19 case outcomes.
+								</p>
+							</header>
+							<div style="position: relative; width: 100%; padding-bottom: 75%; margin-bottom: 0;">
+								<img src="../images/world_heat_map.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 70%;">
+							</div>
+						</article>
+
+						<article>
+							<h1>
+								Summary
+							</h1>
+							<p>
+								Throughout the project, meticulous curation and preprocessing of the data were undertaken, 
+								ensuring that the models did not learn from noisy or incomplete information. 
+								Relevant features were carefully selected for both training and testing, maintaining 
+								consistency to enable accurate model comparisons. Categorical features were mapped, and 
+								class distributions were balanced to optimize the datasets for model training, thereby 
+								enhancing predictive performance. Building upon this groundwork, various classification 
+								models were constructed including <b>KNN</b>, <b>Random Forests</b>, and <b>Naive Bayes Classifier</b>
+								. These models were fine-tuned, utilizing advanced techniques such as hyperparameter 
+								tuning and model evaluation to achieve optimal results. Efforts were made to rigorously check 
+								for overfitting and conduct comparative analyses to identify the most effective model for the 
+								goal. Ultimately, the best-tuned model was utilized to predict outcomes on the test dataset,
+									meeting performance criteria and showcasing the success of the approach in developing a robust
+									and accurate classification solution.
+							</p>
+						</article>
+
+						<section class="posts">
+							<article>
+								<header>
+									<h2>Responsibilities<br /></h2>
 								</header>
-
-
-								<!-- <div>
-									<img src="../images/best_kmeans++.png">
-								</div> -->
-
-
-								<div style="position: relative; width: 100%; padding-bottom: 75%; margin-bottom: 25px;">
-									<!-- <video width="1440" height="720" autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-										<source src="videos/new_leaf.mp4" type="video/mp4">
-									</video>		 -->
-									<img src="../images/world_heat_map.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 70%;">
+								<div style="text-align: left;">
+									<p>
+										<ul>
+											<li>Handle missing values in location and case datasets.</li>
+											<li>Convert categorical features with 'string' type to numerical representation.</li>
+											<li>Describe balancing approach and reasoning.</li>
+											<li>Conduct hyperparameter tuning using K-fold cross-validation.</li>
+											<li>Use best-tuned model(s) to predict outcomes on test data.</li>
+										</ul>
+									</p>
 								</div>
-								<!-- <div>
-									<p style="text-align: center; font-size: 1.2em;">
-										<a href="https://github.com/coltonBlackwell/scRNA-seq-Clustering-Analysis">Github Repo</a>
-									</p>
-									<p style="text-align: center; font-size: 1.2em;">
-										<a href="../reports/Report.pdf">Report</a>
-									</p>
-								</div> -->
-
 							</article>
+							<article>
+								<header>
+									<h2>Skills Developed<br /></h2>
+								</header>
+								<div style="text-align: left;">
+									<p>
+										<ul>
+											<li>Implemented K-nearest neighbour classifier</li>
+											<li>Implemented Categorical Naive Bayes Classifier</li>
+											<li>Created informative and visually appealing bar plots and heatmaps.</li>
+											<li>Handling missing values in datasets.</li>
+											<li>Balancing class distributions in training datasets to improve model performance.</li>
+											<li>Assessing models for overfitting and implementing strategies to mitigate it.</li>
+											<li>Identifying strengths and weaknesses of each model for decision-making.</li>
+											<li>Utilizing Python libraries (e.g., Scikit-learn, Pandas) for data manipulation and modeling.</li>
 
-                            <article>
-                                <h1>
-                                    Model Comparison
-                                </h1>
-                                <img src="images/best_classifier.png">
-                                <p>
-                                    While using <a href="https://drive.google.com/drive/folders/1D_rvFNM0EqnOq8_O3OH1ksjgk2pLxc_f" style="color: blue;">this</a> dataset, 
-                                    it was found that among the three models, the random forest classifier exhibited the most accurate prediction of the 
-                                    outcome class label. This superior performance is likely due to the ensemble learning technique employed by Random Forests. 
-                                    This method combines multiple decision trees, effectively reducing overfitting and improving generalization capabilities.
-                                </p>
-
-                            </article>
-
-                                <article>
-                                    <h1>
-                                        Summary
-                                    </h1>
-                                    <p>
-                                        Throughout the project, meticulous curation and preprocessing of the data were undertaken, 
-                                        ensuring that the models did not learn from noisy or incomplete information. 
-                                        Relevant features were carefully selected for both training and testing, maintaining 
-                                        consistency to enable accurate model comparisons. Categorical features were mapped, and 
-                                        class distributions were balanced to optimize the datasets for model training, thereby 
-                                        enhancing predictive performance. Building upon this groundwork, various classification 
-                                        models were constructed including <b>KNN</b>, <b>Random Forests</b>, and <b>Naive Bayes Classifier</b>
-                                        . These models were fine-tuned, utilizing advanced techniques such as hyperparameter 
-                                        tuning and model evaluation to achieve optimal results. Efforts were made to rigorously check 
-                                        for overfitting and conduct comparative analyses to identify the most effective model for the 
-                                        goal. Ultimately, the best-tuned model was utilized to predict outcomes on the test dataset,
-                                         meeting performance criteria and showcasing the success of the approach in developing a robust
-                                          and accurate classification solution.
-                                    </p>
-                                </article>
-
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Responsibilities<br /></h2>
-									</header>
-									<div style="text-align: left;">
-										<p>
-											<ul>
-												<li>Handle missing values in location and case datasets.</li>
-												<li>Convert categorical features with 'string' type to numerical representation.</li>
-												<li>Describe balancing approach and reasoning.</li>
-												<li>Conduct hyperparameter tuning using K-fold cross-validation.</li>
-												<li>Use best-tuned model(s) to predict outcomes on test data.</li>
+											<!-- <li>First draft of code was often hard to read</li> -->
 											</ul>
-										</p>
-									</div>
-								</article>
-								<article>
-									<header>
-										<h2>Skills Developed<br /></h2>
-									</header>
-									<div style="text-align: left;">
-										<p>
-											<ul>
-												<li>Implemented K-nearest neighbour classifier</li>
-												<li>Implemented Categorical Naive Bayes Classifier</li>
-												<li>Created informative and visually appealing bar plots and heatmaps.</li>
-												<li>Handling missing values in datasets.</li>
-												<li>Balancing class distributions in training datasets to improve model performance.</li>
-												<li>Assessing models for overfitting and implementing strategies to mitigate it.</li>
-												<li>Identifying strengths and weaknesses of each model for decision-making.</li>
-												<li>Utilizing Python libraries (e.g., Scikit-learn, Pandas) for data manipulation and modeling.</li>
-
-												<!-- <li>First draft of code was often hard to read</li> -->
-											  </ul>
-										</p>
-									</div>
-									
-									<!-- <a href="koi-kapers.html" class="image fit"><img src="images/Koi-Kapers-Main-modified.png" alt="" style="height: 350px;"/></a> -->
-									<!-- <p>A 2D game with an arcade-style design created using Java.
 									</p>
-									<ul class="actions special">
-										<li><a href="koi-kapers.html" class="button">Learn More</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<h2>Technologies<br /></h2>
-									</header>
-									<div style="text-align: left;">
-										<p>
-											<ul>
-                                                <li>VS code
-                                                <li> Jupyter Notebook
-												<li>Python
-												  <ul>
-                                                    <li>pandas</li>
-													<li>Matplotlib</li>
-													<li>numpy</li>
-													<li>scanpy</li>
-													<li>sklearn.metrics</li>
-												  </ul>
-												</li>
-										</p>
-									</div>
-								</article>
-                                <article>
-									<header>
-										<h2>Learn More<br /></h2>
-									</header>
-									<div style="text-align: left; font-size: 1.3em;">
-										<p>
-											<ul>
-												<li>
-													<a href="../reports/covid_Report.pdf">Report</a>
-												</li>
-												<li>
-													<a href="https://github.com/coltonBlackwell/CMPT459-Final-Group-Project">Github Repository</a>
-												</li>
-											  </ul>
-										</p>
-									</div>
-								</article>
-							</section>
+								</div>
+								
+								<!-- <a href="koi-kapers.html" class="image fit"><img src="images/Koi-Kapers-Main-modified.png" alt="" style="height: 350px;"/></a> -->
+								<!-- <p>A 2D game with an arcade-style design created using Java.
+								</p>
+								<ul class="actions special">
+									<li><a href="koi-kapers.html" class="button">Learn More</a></li>
+								</ul> -->
+							</article>
+							<article>
+								<header>
+									<h2>Technologies<br /></h2>
+								</header>
+								<div style="text-align: left;">
+									<p>
+										<ul>
+											<li>VS code
+											<li> Jupyter Notebook
+											<li>Python
+												<ul>
+												<li>pandas</li>
+												<li>Matplotlib</li>
+												<li>numpy</li>
+												<li>scanpy</li>
+												<li>sklearn.metrics</li>
+												</ul>
+											</li>
+									</p>
+								</div>
+							</article>
+							<article>
+								<header>
+									<h2>Learn More<br /></h2>
+								</header>
+								<div style="text-align: left; font-size: 1.3em;">
+									<p>
+										<ul>
+											<li>
+												<a href="../reports/covid_Report.pdf">Report</a>
+											</li>
+											<li>
+												<a href="https://github.com/coltonBlackwell/CMPT459-Final-Group-Project">Github Repository</a>
+											</li>
+											</ul>
+									</p>
+								</div>
+							</article>
+						</section>
 
-							<ul class="actions special">
-								<li><a href="index.html" class="button large">Return to Main Page</a></li>
-							</ul>
+						<ul class="actions special">
+							<li><a href="index.html" class="button large">Return to Main Page</a></li>
+						</ul>
 
 			</div>
 
